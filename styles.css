@@ -1,0 +1,274 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-color: #f5f5f5;
+}
+
+
+
+/* Header Styling */
+.header {
+    background-color: #890dd5b9;
+    padding: 10px 0;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.contact-info {
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download-btn {
+    background-color: #0efa0aa0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e8f0fc;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 359px;
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.appointment-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.appointment-box input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-appointment-btn {
+    background-color: #0056b3;
+}
+
+/* Services Section */
+.services {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-item {
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.service-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* General Styles */
+.specialities-section {
+    background-color: #f5faff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #1f3559;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #003366;
+  }
+  
+  /* Specialities Wrapper */
+  .specialities-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  /* Yellow Box */
+  .yellow-box {
+    background-color: rgba(178, 32, 32, 0.3); /* Sea green with low opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 45%;
+  }
+  
+  }
+  
+  /* Left and Right Specialities */
+  .specialities-left,
+  .specialities-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .speciality-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .speciality-item img {
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .speciality-item p {
+    font-size: 16px;
+    color: #1f3559;
+  }
+  
+  /* Right Side: Find a Doctor */
+  .find-doctor {
+    width: 45%;
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .doctor-box h3 {
+    font-size: 22px;
+  }
+  
+  .doctor-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .find-doctor-btn {
+    background-color: #1f3559;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .find-doctor-btn:hover {
+    background-color: #003366;
+  }
+  
+  .find-doctor img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .specialities-wrapper {
+      flex-direction: column;
+    }
+    .specialities-left,
+    .specialities-right,
+    .find-doctor {
+      width: 100%;
+    }
+  }
+  
+
+/* Contact Section */
+.contact {
+    background-color: #3700ff8d;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.contact h3 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #403436;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
