@@ -117,6 +117,74 @@
         </div>
       </section>
       
+      <div class="chatbot-container">
+        <button class="open-chat" onclick="openChat()">Chat with AI Assistant</button>
+    </div>
+
+    <!-- Chatbot Popup -->
+    <div class="chatbot-popup" id="chatPopup">
+        <div class="chat-header">
+            <button class="close-chat" onclick="closeChat()">X</button>
+        </div>
+        
+        <!-- Nurse Image on top of Chatbot -->
+        <div class="nurse-image">
+            <img src="nurse.jpg" alt="Nurse Image">
+        </div>
+        
+        <div class="chat-body" id="chatBody">
+            <div class="message bot-message">Hello! How can I assist you today?</div>
+        </div>
+        
+        <div class="chat-footer">
+            <input type="text" id="userInput" placeholder="Type your message here..." onkeypress="sendMessage(event)">
+            <button onclick="sendMessage(event)">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot - Hospital</title>
+    
+    <!-- Link to your styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Your HTML content here -->
+    <div class="chatbot-container">
+        <button class="open-chat" onclick="openChat()">Chat with AI Nurse</button>
+    </div>
+
+    <div class="chatbot-popup" id="chatPopup">
+        <div class="chat-header">
+            <button class="close-chat" onclick="closeChat()">X</button>
+        </div>
+
+        <div class="nurse-image">
+            <img src="https://i.pinimg.com/474x/37/4d/04/374d040f8d4e48fda071f37d4c427417.jpg" alt="Nurse Image">
+        </div>
+
+        <div class="chat-body" id="chatBody">
+            <div class="message bot-message">Hello! How can I assist you today?</div>
+        </div>
+
+        <div class="chat-footer">
+            <input type="text" id="userInput" placeholder="Type your message here..." onkeypress="sendMessage(event)">
+            <button onclick="sendMessage(event)">Send</button>
+        </div>
+    </div>
+
+    <!-- Link to your JavaScript file (chat.js) -->
+    <script src="chat.js"></script>
+</body>
+</html>
 
     <!-- Contact Section -->
     <section class="contact">
