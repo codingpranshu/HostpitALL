@@ -164,7 +164,7 @@ body {
     width: 45%;
   }
   
-  }
+
   
   /* Left and Right Specialities */
   .specialities-left,
@@ -202,12 +202,12 @@ body {
   }
   
   .doctor-box h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
   
   .doctor-box p {
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   .find-doctor-btn {
