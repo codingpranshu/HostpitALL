@@ -1,0 +1,9 @@
+To-Do List
+
+DONE   1. Reduce "Looking for Expert card" bottom margin
+DONE   2. "Looking for Expert card" text modify (Add '?')
+3. Rounded corner for logos
+4. Shift Doctor pic from "Looking for Expert card" to "Schedule Appointment section"
+5. Make separate classes for the two "Specialities and Procedure cards" to facilitate similar sizes (varying text length leading to different card sizes as of now)
+6. Change the colour of one of the "Specialities and Procedure cards"
+7. Change colour of Header to match with Footer
