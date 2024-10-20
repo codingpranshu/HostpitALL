@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Doctor Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HOSPITALL</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#appointment">Book Appointment</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Book Your Appointment Online</h2>
+            <p>Connect with top specialists from the comfort of your home.</p>
+            <a href="#appointment" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>General Check-up</h3>
+                    <p>Routine health checks and primary care services.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Specialist Consultation</h3>
+                    <p>Consult the best specialists in various medical fields.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Telemedicine</h3>
+                    <p>Virtual appointments from anywhere, anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors">
+        <div class="container">
+            <h2>Our Doctors</h2>
+            <div class="doctor-list">
+                <div class="doctor-item">
+                    <img src="PEAKY.jpg" alt="Doctor 1">
+                    <h3>Dr. Gaurav Kumar</h3>
+                    <p>Cardiologist</p>
+                    <span>★★★★★</span>
+                </div>
+                <div class="doctor-item">
+                    <img src="PEAKY.jpg" alt="Doctor 2">
+                    <h3>Dr. Pranshu singh</h3>
+                    <p>Dermatologist</p>
+                    <span>★★★★☆</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <form action="#" method="POST" class="appointment-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Appointment Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="doctor">Select Doctor</label>
+                <select id="doctor" name="doctor">
+                    <option value="sarah-connor">Dr. Gaurav Kumar - Cardiologist</option>
+                    <option value="john-smith">Dr. Pranshu Singh Smith - Dermatologist</option>
+                </select>
+
+                <label for="type">Appointment Type</label>
+                <select id="type" name="type">
+                    <option value="in-person">In-Person</option>
+                    <option value="virtual">Virtual</option>
+                </select>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Patient Testimonials</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"Great service! The doctors are really professional and the booking process was super easy."</p>
+                    <span>- Jane Doe</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Loved the telemedicine option. It saved me time and effort!"</p>
+                    <span>- John Smith</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>How do I book an appointment?</h3>
+                    <p>Simply fill out the form above and choose your preferred doctor and time.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I reschedule or cancel my appointment?</h3>
+                    <p>Yes, you can reschedule or cancel your appointment through the confirmation email we send you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Location: BATA DENGE</p>
+            <p>Email: contact@hospitall.com</p>
+            <p>Phone: +111111111</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HostpitALL. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

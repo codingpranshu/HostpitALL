@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2D5F5D;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://example.com/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+#hero .btn {
+    background-color: #FFD700;
+    color: #2D5F5D;
+    padding: 12px 25px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #fff;
+}
+
+section {
+    padding: 3rem 0;
+    background-color: #F5F5F5;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2D5F5D;
+    margin-bottom: 1.5rem;
+}
+
+.service-list, .doctor-list, .testimonial-list, .faq-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item, .doctor-item, .testimonial-item, .faq-item {
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 15px;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover, .doctor-item:hover, .testimonial-item:hover, .faq-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-item h3, .doctor-item h3, .testimonial-item h3, .faq-item h3 {
+    color: #2D5F5D;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.doctor-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #FFD700;
+}
+
+.doctor-item span {
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+
+#appointment {
+    background-color: #E6F4F1;
+}
+
+#appointment form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#appointment label {
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2D5F5D;
+}
+
+#appointment input, #appointment select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+#appointment .btn {
+    background-color: #2D5F5D;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#appointment .btn:hover {
+    background-color: #FFD700;
+}
+
+#contact .container{
+    background-color: #0101;
+    text-align:center;
+}
+
+footer {
+    background-color: #2D5F5D;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer p a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+ /* Chatbot Button */
+    #chatbot-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Chat Window */
+    #chatbot {
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #chat-header {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    #chat-body {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+      font-family: Arial, sans-serif;
+    }
+
+    #chat-input {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+
+    #chat-input input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 0;
+      outline: none;
+    }
+
+    #chat-input button {
+      padding: 10px;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    .chat-message {
+      margin: 5px 0;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .chat-message.bot {
+      justify-content: flex-start;
+    }
+
+    .chat-message.user {
+      justify-content: flex-end;
+    }
+
+    .chat-message p {
+      padding: 8px 12px;
+      border-radius: 10px;
+      max-width: 70%;
+    }
+
+    .bot p {
+      background-color: #eee;
+    }
+
+    .user p {
+      background-color: #007BFF;
+      color: white;
+    }
